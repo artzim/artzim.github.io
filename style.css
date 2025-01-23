@@ -1,0 +1,109 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #5b8b00;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #362a9b;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #142500;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main > img:first-of-type { 
+    width: 80%;
+    margin: 20px auto;
+    display: block;
+    opacity: 0.8;
+}
+
+main > h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+main > img:nth-of-type(2) { 
+    width: 20%; 
+    margin: 15px 20px;
+    border-radius: 5px;
+ }
+ 
+ main > img:nth-of-type(3) { 
+    width: 30%;  
+    margin: 15px 20px;
+    border-radius: 5px;
+ }
+
+main > p {
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 1.1em;
+    line-height: 1.8;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+footer{
+    background-color: #222;
+    padding: -50px;        
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+h2{
+    font-size: 16px;
+    margin-right: 1550px;
+    margin-top: 20px;
+    padding: 1px;
+}
+
+footer p {
+    font-size: 15px;       
+    color: #a6ff002a;   
+    padding-left: 1400px;  
+    margin-top: 20px;
+}
+
+img[alt="Whistleblower"] {
+    width: 450px;
+    height: 400px;
+}
